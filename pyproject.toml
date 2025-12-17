@@ -19,6 +19,7 @@ dev = [
 
 [project.scripts]
 tui-builder = "tui_builder.app:main"
+tui-builder-mcp = "tui_builder.mcp_server:main"
 
 [build-system]
 requires = ["hatchling"]
