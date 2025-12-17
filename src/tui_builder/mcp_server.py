@@ -12,8 +12,8 @@ from tui_builder.tools import register_tools
 
 mcp = FastMCP(
     "tui-builder",
-    instructions="""TUI Builder helps you create high-quality Text User Interface 
-applications using the Textual framework. 
+    instructions="""TUI Builder helps you create high-quality Text User Interface
+applications using the Textual framework.
 
 Use the available tools to:
 - Generate component code following best practices
