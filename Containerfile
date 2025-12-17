@@ -20,4 +20,4 @@ EXPOSE 8000
 
 # Run the MCP server
 # TODO: Update path to your package name
-CMD ["python", "src/my_package/mcp_server.py"]
+CMD ["python", "src/tui_builder/mcp_server.py"]

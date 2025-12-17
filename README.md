@@ -1,6 +1,6 @@
-# Python Project Template
+# TUI Builder
 
-A Python project template with an AGENTS.md-based documentation system for AI agent guidance.
+A TUI (Text User Interface) builder application.
 
 ## Features
 
@@ -17,8 +17,8 @@ A Python project template with an AGENTS.md-based documentation system for AI ag
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Clone and setup
-git clone https://github.com/YOUR-USERNAME/python-project-template.git
-cd python-project-template
+git clone https://github.com/amp-rh/tui-builder.git
+cd tui-builder
 uv sync --extra dev
 
 # Run tests
@@ -44,7 +44,7 @@ make lint
 │   ├── learnings/      # Discovered patterns
 │   ├── scratch/        # Agent working space
 │   └── templates/      # Reusable templates
-├── src/my_package/     # Source code (rename to your package)
+├── src/tui_builder/    # Source code
 │   ├── dev_mcp.py      # Dev MCP server
 │   └── mcp_server.py   # API MCP server
 └── tests/              # Tests
@@ -83,8 +83,8 @@ make serve
 ## Using This Template
 
 1. **Create from template** or clone this repository
-2. **Rename package**: `mv src/my_package src/your_package`
-3. **Update references**: Search for `my_package` and replace
+2. **Rename package**: Already done (`src/tui_builder`)
+3. **Update references**: Already done
 4. **Update pyproject.toml**: Change name, description, authors
 5. **Generate MCP config**: Run the script in `.agents/commands/deploy-mcp.md`
 

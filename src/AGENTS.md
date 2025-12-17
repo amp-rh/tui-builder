@@ -43,7 +43,7 @@ See @AGENTS.md for project-wide rules.
 src/
 ├── AGENTS.md                   # This file
 ├── __init__.py                 # Package root
-└── my_package/                 # Main package (TODO: rename to your package)
+└── tui_builder/                # Main package
     ├── __init__.py             # Package init with version
     ├── dev_mcp.py              # Dev MCP server (project development)
     └── mcp_server.py           # API MCP server (external interface)

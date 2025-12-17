@@ -4,7 +4,7 @@ See @tests/AGENTS.md for test guidance.
 """
 
 # TODO: Update import to your package name
-from my_package import __version__
+from tui_builder import __version__
 
 
 def test_version():
