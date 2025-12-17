@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "<project-name>-dev": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "<absolute-path-to-project>",
+        "python",
+        "src/<package_name>/dev_mcp.py"
+      ]
+    },
+    "<project-name>": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "<absolute-path-to-project>",
+        "python",
+        "src/<package_name>/mcp_server.py"
+      ]
+    }
+  }
+}
